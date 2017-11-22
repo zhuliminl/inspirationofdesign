@@ -1,1 +1,5 @@
+.DS_Store
 env
+*.py[cod]
+*.swp
+client/node_modules
