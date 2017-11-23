@@ -3,3 +3,5 @@ env
 *.py[cod]
 *.swp
 client/node_modules
+client/dist
+client/src/font

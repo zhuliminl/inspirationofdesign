@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'TitilliumWeb-Regular';
+    src: url('./font/TitilliumWeb-Regular.ttf');
+}
+
+.hello {
+    color: #333;
+    font-family:'TitilliumWeb-Regular';
+    font-size: 24px;
+    background: no-repeat url('./picture.png');
+}
+
