@@ -1,0 +1,72 @@
+{
+    "state": {
+        "status": "loading/failure/success",
+        "filter": [
+            {
+                "siteName": "dribbble",
+                "active": true,
+                "content": [
+                    {
+                         "author": "作者",
+                         "desc": "描述",
+                         "href": "链接地址",
+                         "src": "图片地址"
+                    },
+                    {
+                         "author": "作者",
+                         "desc": "描述",
+                         "href": "链接地址",
+                         "src": "图片地址"
+                    },
+                    {
+                         "author": "作者",
+                         "desc": "描述",
+                         "href": "链接地址",
+                         "src": "图片地址"
+                    }
+
+                ]
+            },
+            {
+                "siteName": "dribbble",
+                "active": false
+            },
+            {
+                "siteName": "dribbble",
+                "active": false
+            }
+        ],
+        "postList": [
+            {
+                "author": "作者",
+                "desc": "描述",
+                "href": "链接地址",
+                "src": "图片地址"
+            },
+            {
+                "author": "作者",
+                "desc": "描述",
+                "href": "链接地址",
+                "src": "图片地址"
+            },
+            {
+                "author": "作者",
+                "desc": "描述",
+                "href": "链接地址",
+                "src": "图片地址"
+            },
+            {
+                "author": "作者",
+                "desc": "描述",
+                "href": "链接地址",
+                "src": "图片地址"
+            },
+            {
+                "author": "作者",
+                "desc": "描述",
+                "href": "链接地址",
+                "src": "图片地址"
+            }
+        ]
+    }
+}
