@@ -1,0 +1,40 @@
+@font-face {
+    font-family: 'Dosis-Regular';
+    src: url('./src/font/Dosis/Dosis-Regular.ttf')
+}
+
+body {
+    font-family: "Dosis-Regular", "PingFang SC","微软雅黑","Microsoft YaHei",Helvetica,"Helvetica Neue",Tahoma,Arial,sans-serif;
+}
+
+#root {
+    width: 80%;
+    margin: 0 auto;
+}
+
+ul,li {
+    padding: 0;
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+* {
+    box-sizing: border-box;
+    transition: all 1s ease 0s;
+}
+
+img, video {
+    width: 100%;
+    border-radius: 2px;
+}
+
+@media screen and (max-width: 800px) {
+    #root {
+        width: 100%;
+    }
+}
+

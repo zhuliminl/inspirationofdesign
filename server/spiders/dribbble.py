@@ -20,6 +20,12 @@ class Dribbble(object):
             author = element.cssselect('h2 span a:first-child')[0].get('href', '/')[1:]  # remove /
             desc = element.cssselect('.comment')[0].text
 
+            # 削减多余的字符
+            if len(title) > 29:
+                title = title[:29] + '...'
+
+            if len(desc) > 59:
+                desc = desc[:59] + '...'
         except IndexError:
             pass
 

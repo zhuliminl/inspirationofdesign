@@ -57,6 +57,10 @@ module.exports = {
                 use: ['style-loader', 'css-loader']
             },
             {
+                test: /\.scss$/,                                  // scss
+                use: ['style-loader', 'css-loader', 'sass-loader']
+            },
+            {
                 test: /\.(png|jpg|svg|gif)$/,                    // 图片资源通道
                 use: ['file-loader']
             },

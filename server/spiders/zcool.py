@@ -23,7 +23,7 @@ class Zcool(object):
             pass
 
         inspiration = {
-                'title': title,
+                'title': title[:14],
                 'src': src,
                 'author': author,
                 'desc': desc,

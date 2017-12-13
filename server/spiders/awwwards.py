@@ -16,7 +16,7 @@ class Awwwards(object):
         try:
             href = element['url']
             title = element.get('site_name') or element.get('title')
-            src = 'assets.awwwards.com/awards/media/cache/optimize/' +  element['image'] or ''
+            src = 'http://assets.awwwards.com/awards/media/cache/optimize/' +  element['image'] or ''
             author = element['user']['username']
             desc = element.get('slug', '')
 

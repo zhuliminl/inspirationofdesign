@@ -2,10 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';             // 容器引入
 
-import './src/style.css';
-
 import App from './InspirationApp.js';
 import store from './Store.js';
+
+import 'normalize.css';
+import './index.scss';
 
 ReactDOM.render(
         <Provider store={ store }>

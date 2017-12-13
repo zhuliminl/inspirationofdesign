@@ -1,0 +1,65 @@
+.filter {
+    width: 80%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+
+    &__item {
+        color: #333;
+        display: inline;
+        text-align: center;
+        & a {
+            width: 25%;
+            padding: 2em;
+            padding-bottom: .3em;
+            text-align: center;
+            display: inline-block;
+            &:hover {
+                color: red;
+            }
+        }
+    }
+
+    &_active {
+        font-size: 20px;
+        color: red;
+    }
+
+    &  div {
+        padding: 2px 8%;
+        height: 6px;
+        width: 25%;
+        margin-left: 25%;
+        background: red;
+        border-radius: 2px;
+        transition: all .5s cubic-bezier(0.9, 0, 0.25, 1) 0s;
+        background-clip: content-box;
+    }
+
+    & li:hover ~ div {
+        background: red;
+        background-clip: content-box;
+    }
+
+	& li:nth-child(1):hover ~ div {
+        margin-left: 0%;
+    }
+	& li:nth-child(2):hover ~ div {
+        margin-left: 25%;
+    }
+	& li:nth-child(3):hover ~ div {
+        margin-left: 50%;
+    }
+	& li:nth-child(4):hover ~ div {
+        margin-left: 75%;
+    }
+}
+
+.loading {
+    display: block;
+    color: red;
+    width: 100%;
+    height: 80vh;
+    background: no-repeat url('../../src/loading.svg');
+    background-position: 50% 50%;
+    transition: background-position 0s cubic-bezier(0.9, 0, 0.25, 1) 0s;        /* 让加载动画零秒到底指定位置 */
+}
