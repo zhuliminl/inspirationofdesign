@@ -1,7 +1,7 @@
 from flask import jsonify
 from . import main
 
-from server.spiders.awwwards import Awwwards
+from server.spiders.cssdesign import Cssdesign
 from server.spiders.dribbble import Dribbble
 from server.spiders.uimovement import UIMovement
 from server.spiders.zcool import Zcool
@@ -10,10 +10,10 @@ from server.spiders.zcool import Zcool
 def index():
     return '<h1>后台</h1>'
 
-@main.route('/awwwards', methods=['GET'])
-def get_awwwards_inspiration():
-    awwwards = Awwwards()
-    inspiration_list = awwwards.get_inspiration()
+@main.route('/cssdesign', methods=['GET'])
+def get_cssdesign_inspiration():
+    cssdegisn = Cssdesign()
+    inspiration_list = cssdegisn.get_inspiration()
 
     response = jsonify(message = 'OK', data = inspiration_list)
     response.headers['Access-Control-Allow-Origin'] = '*'

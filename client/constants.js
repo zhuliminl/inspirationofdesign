@@ -1,5 +1,5 @@
 export const siteList = [
-    'Awwwards',
+    'Cssdesign',
     'Dribbble',
     'UIMovement',
     'Zcool'
